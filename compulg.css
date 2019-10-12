@@ -1,0 +1,54 @@
+/*---------------------------------------------------------------------
+	Estilo para el cuerpo de las paginas del programa
+---------------------------------------------------------------------*/
+
+body {
+  padding: 2em 1em 2em 70px;
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+  background-image: url(https://i.imgur.com/D0czvqq.jpg);
+  background-position: top left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dlogo {
+    margin-right: 50px;
+}
+.imglogo {
+    width:30%;
+    height:auto;
+}
+.frmcont{
+    background-color: aliceblue; 
+    width: 50%; 
+    height: auto;
+}
+/* If screen size is 600px wide, or less, change set */
+@media screen and (max-width: 600px) {
+    body{
+        background-image: none;
+        background-color: aliceblue;
+        padding: 1em 1em 1em 1em;
+        margin: 0;
+        font-family: sans-serif;
+        color: black;
+        background-position: top left;
+        background-attachment: none;
+    }
+    .dlogo {
+        margin-right: 0px;
+        width: 100%;
+        align-content: center;
+    }
+    .imglogo {
+        width:80%;
+        height:auto;
+    }
+    .frmcont{
+        width: 100%; 
+        height: auto;
+    }
+}
